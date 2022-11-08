@@ -1,0 +1,196 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+*/
+body {
+  text-align: center;
+  background-color: #111;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.complete-card{
+  width: 845px;
+  height: 470px;
+  margin-left: auto;
+  margin-right:auto;
+  position: relative;
+}
+.background{
+  background-color:#0c122c;
+  width: 845px;
+  height: 470px;
+  margin-left: auto;
+margin-right: auto;  
+}
+
+.bg-desktop{
+  width: 845px;
+  height: 235px;
+  position: absolute;
+  top: 235px;
+  left:0
+}
+
+.card-logo{
+  width: 230px;
+  height: 138px;
+  background-color:#1d2c67;
+  position: absolute;
+  bottom: 180px;
+  left: 150px;
+  border-radius: 10px;
+  border-top-right-radius: 80px;
+}
+
+.fylo{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+
+.iconboxes{
+  position: absolute;
+  top: 78px;
+  right: 80px;
+}
+
+.doc-box,
+.folder-box,
+.upload-box{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.doc-box{
+  position: relative;
+  top: 4px;
+}
+
+.doc-icon,
+.folder-icon,
+.upload-icon {
+  width: 14px;
+  height: 19px;
+position: relative;
+top: 5px;
+ }
+
+.folder-icon {
+    width: 17px;
+    height: 15px;
+    top: 7px;
+  
+    }
+
+.upload-icon {
+      width: 15px;
+      height: 16px;
+      }
+
+
+.text-185,
+.text-gb-left{
+  color: black;
+  display: inline;
+  position:absolute;
+}
+
+.text-185{
+  position: absolute;
+bottom: 5px;
+}
+  .text-gb-left{
+    width: 5px;
+    height: 5px;
+    }
+  
+p{
+  color:white;
+}
+
+.card-gb{
+  width: 330px;
+  height: 100px;
+  background-color:#1d2c67;
+  position: absolute;
+  bottom: 185px;
+  left: 405px;
+  border-radius: 10px;
+}
+
+.pinkbar,
+.pinkcolour{
+  width: 250px;
+  height: 12px;
+  background-color:#111;
+  position: absolute;
+  top: 50px;
+  left:20px;
+  border-radius: 10px;
+}
+.pinkcolour{
+  width: 180px;
+  background-color: violet;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.text-storage{
+  font-size: 10px;
+  position: absolute;
+  top:20px;
+  left: 20px;
+}
+
+.text-0gb,
+.text-1000gb{
+  font-size: 10px;
+  position: absolute;
+  top: 65px;
+  left:20px
+}
+
+.text-1000gb{
+left: 250px;
+}
+
+.card-185{
+  width: 130px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 260px;
+  left: 650px;
+  border-radius: 10px;
+
+}
+
+.text-185{
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  bottom: -15px;
+}
+
+.text-gb,
+.text-left{
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  left: 65px;
+  bottom: 5px;
+  color: black
+}
+.text-left{
+left:85px;
+
+}
